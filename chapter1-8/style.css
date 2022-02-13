@@ -150,11 +150,11 @@ main {
   margin-bottom: 5px;
 }
 
-.popular-text:last-child,
+.popular-text:last-child, /* 疑似クラス [last-child]最後の要素にのみ適用 */
 .categories-text:last-child {
   margin: 0;
   padding: 0;
-  border: none;
+  border: none; /* border なし */
 }
 
 .instagram .sidebar-contents {
@@ -170,7 +170,7 @@ main {
   margin-bottom: 10px;
 }
 
-.instagram-box:nth-child(odd) {
+.instagram-box:nth-child(odd) {/* 疑似クラス [nth-child(odd)]奇数の要素にのみ適用 */
   margin-right: 10px;
 }
 
