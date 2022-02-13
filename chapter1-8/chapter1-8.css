@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 main{
   width: 960px;
   margin: 50px auto;
@@ -11,17 +12,17 @@ main{
 
 .text-item{
   padding: 20px;
-  list-style: none;
+  list-style: none; /* リストの装飾無効化 */
 }
 
-.text-item:nth-child(odd) {
+.text-item:nth-child(odd) { /* 奇数 */
   background-color: #f7f7f7;
 }
 
 .box-contents {
   margin-top: 50px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  /* widthで折り返し */
 }
 
 .box-item{
