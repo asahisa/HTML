@@ -4,12 +4,71 @@
   box-sizing: border-box;
 }
 
-.position{
-  position: absolute;
-  top: 100px;
-  right: 40px;
+header{
+  height: 50px;
+  width: 100%;
+  background-color: #ff9a4b;
 }
 
-.fab{
-  font-size: 32px;
+.main-visual{
+  margin: 50px auto;
+  width: 960px;
+  display: flex;
+}
+
+.main-visual-content{
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  background-color: #eeeeee;
+  position: relative; /* span使用すれば不要 */
+}
+
+.main-visual-content:last-child{
+  width: 300px;
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+.step{
+  width: 15%; /* spanで文字だけ装飾すれば良い */
+  color: #ffff;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image1{
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url("img-chapter1-9/flow01.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image2{
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url("img-chapter1-9/flow02.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.image3{
+  height: 150px;
+  margin-bottom: 15px;
+  background-image: url("img-chapter1-9/flow03.png");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title{
+  margin-bottom: 5px;
+}
+
+footer{
+  height: 50px;
+  width: 100%;
+  background-color: #aaaaaa;
 }
